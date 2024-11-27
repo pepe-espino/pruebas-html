@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Denuncia</title>
+    <link rel="stylesheet" href="denuncia2.css">
+</head>
+<body>
+    <img src="25694.png" width="35" height="35">
+    <div class="container">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" placeholder="Introduce el nombre del agresor">
+            
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" placeholder="Introduce los apellidos del agresor">
+
+            <label for="dni-victima">DNI de víctima:</label>
+            <input type="text" id="dni-victima" placeholder="Introduce el DNI de la víctima">
+
+            <label for="relacion">Relación entre agresor-víctima:</label>
+            <input type="text" id="relacion" placeholder="Introduce la relación entre la víctima y el agresor">
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha">
+
+            <label for="hora">Hora: <span>(opcional)</span></label>
+            <input type="time" id="hora">
+
+            <label for="motivo">Motivo de la denuncia:</label>
+            <textarea id="motivo" rows="4" placeholder="Introduce el motivo de la denuncia. Este se enviará a las autoridades que evaluarán el caso"></textarea>
+
+            <button type="submit">ENVIAR</button>
+        </form>
+    </div>
+</body>
+</html>
